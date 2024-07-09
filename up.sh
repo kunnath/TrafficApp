@@ -14,8 +14,11 @@
 #pip install --upgrade pip
 
 # Install numpy, scipy, and scikit-learn
-pip install numpy scipy scikit-learn
-
+pip install  scipy scikit-learn
+# Upgrade pip and setuptools
+pip install --upgrade pip setuptools
+# Install numpy
+pip install numpy
 # Install other required packages
 pip install streamlit pandas matplotlib seaborn joblib
 
