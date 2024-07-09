@@ -4,6 +4,9 @@ import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import mean_squared_error, r2_score
+import subprocess  # Import subprocess module
+# Run the up.sh script
+subprocess.run(['./up.sh'], check=True)
 
 # Set page configuration
 st.set_page_config(
