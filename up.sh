@@ -11,7 +11,7 @@
 #source venv/bin/activate
 
 # Upgrade pip
-pip install --upgrade pip
+#pip install --upgrade pip
 
 # Install numpy, scipy, and scikit-learn
 pip install numpy scipy scikit-learn
