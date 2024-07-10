@@ -13,17 +13,23 @@
 # Upgrade pip
 #pip install --upgrade pip
 
-# Install numpy, scipy, and scikit-learn
-pip install  scipy scikit-learn
 # Upgrade pip and setuptools
 pip install --upgrade pip setuptools
+
+# Install numpy and scipy compatible with Python 3.11
+#pip install numpy>=1.24.0 scipy>=1.7.0 streamlit
+
+pip install -r requirements.txt
+
+# Install numpy, scipy, and scikit-learn
+#pip install   scikit-learn  pandas matplotlib seaborn joblib
+# Upgrade pip and setuptools
 # Install numpy
-pip install numpy
 # Install other required packages
-pip install streamlit pandas matplotlib seaborn joblib
+
 
 # Install required packages
-#pip install -r requirements.txt
+
 
 # Run the Streamlit application
 #streamlit run app1.py
